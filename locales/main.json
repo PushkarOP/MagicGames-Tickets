@@ -1,10 +1,10 @@
 {
   "embeds": {
     "openTicket": {
-      "title": "Open a ticket",
-      "description": "Click on the button to start opening a ticket",
+      "title": "**Help & Support**",
+      "description": "**・📜 Simple Instructions ︵₊˚**\n ~ You can talk to admins directly.\n ~ Submit reports with proper proof/screenshot!\n ~ Don't create ticket for silly reasons.\n ~ YouTube Rank Requirement: 500subs.",
       "footer": {
-        "text": "is.gd/ticketbot",
+        "text": "magicgames",
         "iconUrl": ""
       }
     },
@@ -12,7 +12,7 @@
       "title": "Ticket CATEGORYNAME",
       "description": "A staff will reply you as soon as possible!",
       "footer": {
-        "text": "is.gd/ticketbot",
+        "text": "magicgames",
         "iconUrl": ""
       }
     },
@@ -24,7 +24,7 @@
       "title": "Ticket closed",
       "description": "The ticket n°TICKETCOUNT has been closed by CLOSERNAME with the following reason: `REASON`\n\nHere is the transcript of the ticket: TRANSCRIPTURL",
       "footer": {
-        "text": "is.gd/ticketbot",
+        "text": "magicgames",
         "iconUrl": ""
       }
     }
@@ -62,7 +62,7 @@
   "ticketLimitReached": "You can only have TICKETLIMIT tickets opened at the same time!",
 
   "other": {
-    "openTicketButtonMSG": "Open a ticket",
+    "openTicketButtonMSG": "🎟️ Create Ticket",
     "deleteTicketButtonMSG": "Delete ticket",
     "selectTicketTypePlaceholder": "Select a ticket type",
     "claimedBy": "**Claimed By**: USER",

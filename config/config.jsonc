@@ -53,7 +53,7 @@
       "askReason": true // If the bot should ask the reason of the ticket
     }
   ],
-  "ticketNameOption": "🎟️ USERNAME ", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
+  "ticketNameOption": "🎟️:USERNAME ", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
   "rolesWhoHaveAccessToTheTickets": [
     "1036157282070831205"
   ], // Roles who can access to the tickets

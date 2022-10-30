@@ -1,7 +1,8 @@
 const fs = require('fs-extra');
 const path = require('node:path');
 const { Client, Collection, GatewayIntentBits } = require('discord.js');
-const { token } = require('./config/token.json');
+//const { token } = require('./config/token.json');
+const token = process.env('token');
 const { QuickDB } = require('quick.db');
 const jsonc = require('jsonc');
 const db = new QuickDB();

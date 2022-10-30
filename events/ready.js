@@ -18,7 +18,8 @@ module.exports = {
       let embed = client.embeds.openTicket;
 
       embed.color = parseInt(client.config.mainColor, 16);
-      embed.footer.text = "is.gd/ticketbot" + client.embeds.ticketOpened.footer.text.replace("is.gd/ticketbot", "") // Please respect the LICENSE :D
+      //embed.footer.text = "is.gd/ticketbot" + client.embeds.ticketOpened.footer.text.replace("is.gd/ticketbot", "") // Please respect the LICENSE :D
+      embed.footer.text = client.embeds.ticketOpened.footer.text // Please respect the LICENSE :D
 
       const row = new client.discord.ActionRowBuilder()
 			.addComponents(

@@ -1,19 +1,19 @@
 {
-  "clientId": "123456789123456789", // The id of the discord bot
-  "guildId": "123456789123456789", // The id of the discord server
+  "clientId": "1035923371298402344", // The id of the discord bot
+  "guildId": "805997287033667624", // The id of the discord server
   "mainColor": "f6c42f", // The hex color of the embeds by default
   "lang": "main", // If you want to set english please set "main"
 
 
-  "openTicketChannelId": "897568683394752523", // The id of the channel where the message to create a ticket will be sent
+  "openTicketChannelId": "1036190959702130688", // The id of the channel where the message to create a ticket will be sent
   "ticketTypes": [ // You have a limit of 25 types (the limit of Discord)
     {
-      "codeName": "suggestion", // The name need to be in lowercase
-      "name": "Suggestion", // The name that will be displayed in the ticket
-      "emoji": "💡", // The emoji of the type (can be blank)
+      "codeName": "general", // The name need to be in lowercase
+      "name": "General Support", // The name that will be displayed in the ticket
+      "emoji": "���🎟️", // The emoji of the type (can be blank)
       "color": "#e45671", // Can be a hex color or blank to use the main color
-      "categoryId": "123456789123456789", // The category id where the tickets will be created
-      "customDescription": "Please explain your suggestion in detail. If you have any images, please attach them to your message.\n\nReason: REASON", // The custom description of the ticket type (set to blank to use the default description)
+      "categoryId": "1036190765245800478", // The category id where the tickets will be created
+      "customDescription": "Please Explain Your Issue In Detail. If You Have Any Images, Please Attach Them To Your Message.\n\nReason: REASON", // The custom description of the ticket type (set to blank to use the default description)
       "askReason": true // If the bot should ask the reason of the ticket
     },
     {
@@ -21,32 +21,49 @@
       "name": "Report", // The name that will be displayed in the ticket
       "emoji": "🛑", // The emoji of the type (can be blank)
       "color": "#f8312f", // Can be a hex color or blank to use the main color
-      "categoryId": "123456789123456789", // The category id where the tickets will be created
-      "customDescription": "Please explain your report in detail. If you have any images, please attach them to your message.\n\nReason: REASON", // The custom description of the ticket type (set to blank to use the default description)
+      "categoryId": "1036190765245800478", // The category id where the tickets will be created
+      "customDescription": "Please Explain Your Report In Detail. If You Have Any Images, Please Attach Them To Your Message.\n\nReason: REASON", // The custom description of the ticket type (set to blank to use the default description)
+      "askReason": false // If the bot should ask the reason of the ticket
+    },
+    {
+      "codeName": "partnership", // The name need to be in lowercase
+      "name": "Partnership", // The name that will be displayed in the ticket
+      "emoji": "🤝", // The emoji of the type (can be blank)
+      "color": "#fbff83", // Can be a hex color or blank to use the main color
+      "categoryId": "1036190765245800478", // The category id where the tickets will be created
+      "customDescription": "Please Explain How Can You Help Us By Becoming Partner", // The custom description of the ticket type (set to blank to use the default description)
+      "askReason": false // If the bot should ask the reason of the ticket
+    },
+    {
+      "codeName": "youtube", // The name need to be in lowercase
+      "name": "Youtube Rank", // The name that will be displayed in the ticket
+      "emoji": "📽️", // The emoji of the type (can be blank)
+      "color": "#f8312f", // Can be a hex color or blank to use the main color
+      "categoryId": "1036190765245800478", // The category id where the tickets will be created
+      "customDescription": "Minimum Subscriber For YouTube Rank Is 500", // The custom description of the ticket type (set to blank to use the default description)
       "askReason": false // If the bot should ask the reason of the ticket
     },
     {
       "codeName": "other", // The name need to be in lowercase
       "name": "Other", // The name that will be displayed in the ticket
-      "emoji": "", // The emoji of the type (can be blank)
-      "color": "", // Can be a hex color or blank to use the main color
-      "categoryId": "123456789123456789", // The category id where the tickets will be created
-      "customDescription": "", // The custom description of the ticket type (set to blank to use the default description)
-      "askReason": false // If the bot should ask the reason of the ticket
+      "emoji": "📜", // The emoji of the type (can be blank)
+      "color": "#eb83ff", // Can be a hex color or blank to use the main color
+      "categoryId": "1036190765245800478", // The category id where the tickets will be created
+      "customDescription": "Please Explain Your Issue In Detail. If You Have Any Images, Please Attach Them To Your Message.\n\nReason: REASON", // The custom description of the ticket type (set to blank to use the default description)
+      "askReason": true // If the bot should ask the reason of the ticket
     }
   ],
-  "ticketNameOption": "Ticket-TICKETCOUNT", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
+  "ticketNameOption": "🎟️ USERNAME ", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
   "rolesWhoHaveAccessToTheTickets": [
-    "123456789123456789",
-    "987654321987654321"
+    "1036157282070831205"
   ], // Roles who can access to the tickets
   "pingRoleWhenOpened": true,
-  "roleToPingWhenOpenedId": "123456789123456789", // The role to ping when a ticket is opened
+  "roleToPingWhenOpenedId": "1036157282070831205", // The role to ping when a ticket is opened
   "logs": true,
-  "logsChannelId": "12345678987654321", // The id of the channel where the logs will be sent
+  "logsChannelId": "1036300764630491196", // The id of the channel where the logs will be sent
   "claimButton": true,
-  "whoCanCloseTicket": "STAFFONLY", // STAFFONLY (roles configured at "rolesWhoHaveAccessToTheTickets") or EVERYONE
+  "whoCanCloseTicket": "EVERYONE", // STAFFONLY (roles configured at "rolesWhoHaveAccessToTheTickets") or EVERYONE
   "closeButton": true, // If false the ticket can be closed only by doing /closes
-  "askReasonWhenClosing": true, // If false the ticket will be closed without asking the reason
+  "askReasonWhenClosing": false, // If false the ticket will be closed without asking the reason
   "maxTicketOpened": 1 // The number of tickets the user can open while another one is already open. Set to 0 to unlimited
 }

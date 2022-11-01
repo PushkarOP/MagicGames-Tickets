@@ -13,7 +13,7 @@
       "emoji": "🎟️", // The emoji of the type (can be blank)
       "color": "#e45671", // Can be a hex color or blank to use the main color
       "categoryId": "1036190765245800478", // The category id where the tickets will be created
-      "customDescription": "Please Explain Your Issue In Detail. If You Have Any Images, Please Attach Them To Your Message.\n\nReason: REASON", // The custom description of the ticket type (set to blank to use the default description)
+      "customDescription": "**Please Explain Your Issue In Detail. If You Have Any Images, Please Attach Them To Your Message.**\n\nReason: REASON", // The custom description of the ticket type (set to blank to use the default description)
       "askReason": true // If the bot should ask the reason of the ticket
     },
     {
@@ -22,7 +22,7 @@
       "emoji": "🛑", // The emoji of the type (can be blank)
       "color": "#f8312f", // Can be a hex color or blank to use the main color
       "categoryId": "1036190765245800478", // The category id where the tickets will be created
-      "customDescription": "Please Explain Your Report In Detail. If You Have Any Images, Please Attach Them To Your Message.\n\nReason: REASON", // The custom description of the ticket type (set to blank to use the default description)
+      "customDescription": "**Please Explain Your Report In Detail. If You Have Any Images, Please Attach Them To Your Message.**", // The custom description of the ticket type (set to blank to use the default description)
       "askReason": false // If the bot should ask the reason of the ticket
     },
     {
@@ -31,7 +31,7 @@
       "emoji": "🤝", // The emoji of the type (can be blank)
       "color": "#fbff83", // Can be a hex color or blank to use the main color
       "categoryId": "1036190765245800478", // The category id where the tickets will be created
-      "customDescription": "Please Explain How Can You Help Us By Becoming Partner", // The custom description of the ticket type (set to blank to use the default description)
+      "customDescription": "**Please Explain How Can You Help Us By Becoming Partner**", // The custom description of the ticket type (set to blank to use the default description)
       "askReason": false // If the bot should ask the reason of the ticket
     },
     {
@@ -40,7 +40,16 @@
       "emoji": "📽️", // The emoji of the type (can be blank)
       "color": "#f8312f", // Can be a hex color or blank to use the main color
       "categoryId": "1036190765245800478", // The category id where the tickets will be created
-      "customDescription": "Minimum Subscriber For YouTube Rank Is 500", // The custom description of the ticket type (set to blank to use the default description)
+      "customDescription": "**Minimum Subscriber For YouTube Rank Is 500**", // The custom description of the ticket type (set to blank to use the default description)
+      "askReason": false // If the bot should ask the reason of the ticket
+    },
+    {
+      "codeName": "store", // The name need to be in lowercase
+      "name": "Store", // The name that will be displayed in the ticket
+      "emoji": "💰", // The emoji of the type (can be blank)
+      "color": "#f8e42f", // Can be a hex color or blank to use the main color
+      "categoryId": "1036190765245800478", // The category id where the tickets will be created
+      "customDescription": "**Please Explain Your Issue In Detail. If You Have Any Images, Please Attach Them To Your Message.**", // The custom description of the ticket type (set to blank to use the default description)
       "askReason": false // If the bot should ask the reason of the ticket
     },
     {
@@ -53,7 +62,7 @@
       "askReason": true // If the bot should ask the reason of the ticket
     }
   ],
-  "ticketNameOption": "🎟️:USERNAME ", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
+  "ticketNameOption": "🌍 USERNAME", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
   "rolesWhoHaveAccessToTheTickets": [
     "1036157282070831205"
   ], // Roles who can access to the tickets

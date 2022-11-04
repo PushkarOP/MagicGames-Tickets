@@ -74,5 +74,5 @@
   "whoCanCloseTicket": "EVERYONE", // STAFFONLY (roles configured at "rolesWhoHaveAccessToTheTickets") or EVERYONE
   "closeButton": true, // If false the ticket can be closed only by doing /closes
   "askReasonWhenClosing": true, // If false the ticket will be closed without asking the reason
-  "maxTicketOpened": 3 // The number of tickets the user can open while another one is already open. Set to 0 to unlimited
+  "maxTicketOpened": 1 // The number of tickets the user can open while another one is already open. Set to 0 to unlimited
 }

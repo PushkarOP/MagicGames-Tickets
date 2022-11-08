@@ -2,11 +2,6 @@ module.exports = {
 	name: 'ready',
 	once: true,
 	async execute(client) {
-    if (!client.guilds.cache.get(client.config.guildId).members.me.permissions.has("Administrator")) {
-      console.log("\n⚠️⚠️⚠️ I don't have the Administrator permission, to prevent any issues please add the Administrator permission to me. ⚠️⚠️⚠️");
-      process.exit(0);
-    }
-
     async function sendEmbedToOpen() {
       const embedMessageId = await client.db.get("temp.openTicketMessageId");
       const openTicketChannel = await client.channels.fetch(client.config.openTicketChannelId).catch(e => console.error("The channel to open tickets is not found!\n", e));

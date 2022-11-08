@@ -24,13 +24,13 @@ module.exports = {
 					.setStyle(client.discord.ButtonStyle.Primary),
 			);
 
-      try { openTicketChannel.send({
+      /*try { openTicketChannel.send({
         embeds: [embed],
         components: [row]
       })
       .then(msg => {
         client.db.set("temp.openTicketMessageId", msg.id);
-      }) } catch(e) {console.error}
+      }) } catch(e) {console.error}*/
     };
 
     sendEmbedToOpen();
